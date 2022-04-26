@@ -5,38 +5,28 @@
 #main{
   height: 100%;
   width: 100%;
-  /* to make the height of the main-container as long as it contains */
   overflow: auto;
-  /* to give smooth scrolling to the page clicked on nav */
   scroll-behavior: smooth;
-  /* same as smooth scrolling but utilizes the mouse movement */
   scroll-snap-type: y mandatory;
-  /* to remove scrollbar in x-axis */
   overflow-x: hidden;
 }
-/* each div containers */
 .container{
-  /* to call all container as flex-parent */
   display:flex;
   height: 100%;
   width: 100%;
-  /* to make height and width fixed */
   overflow: hidden;
-  /* when the snap-scrolling will start */
   scroll-snap-align: center;
-  /* to align child-items in center */
   align-items: center;
 }
 /* default attributes for text tags */
 body{
-  /* to remove caret (or text cursor) */
   cursor: default;
   font-family: 'Rubik', sans-serif;
 }
 a{
   /* removes default underline for links */
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 nav{
   /* for nav to be fixed in the screen */
@@ -78,10 +68,11 @@ nav{
 
 /* home section - initial setup */
 .home{
+  background-image: url(asset/Background.jpg);
   height: 100%;
-  width: auto;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .logo{
   background-repeat: no-repeat;
@@ -146,7 +137,6 @@ nav{
 .icon{
   display: flex;
 }
-/* DESKTOP SCREEN */
 @media only screen and (min-width: 1024px){
   body{
     color: #27132C;
@@ -164,15 +154,6 @@ nav{
     font-size: 15px;
     writing-mode: vertical-rl;
     text-orientation: upright;
-  }
-
-  /* home section */
-  .home{
-    background-image: url(asset/Background.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .logo{
     height: 50%;
