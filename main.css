@@ -18,41 +18,26 @@
   scroll-snap-align: center;
   align-items: center;
 }
-/* default attributes for text tags */
 body{
   cursor: default;
   font-family: 'Rubik', sans-serif;
 }
 a{
-  /* removes default underline for links */
   text-decoration: none;
   color: #ffffff;
 }
 nav{
-  /* for nav to be fixed in the screen */
   position: fixed;
   width: 100%;
   height: 30%;
-  /* z-index allows element to move forward */
   z-index: 2;
 }
-/* disappear with portrait screen */
-.navnav{
-  display: none;
-}
-/* disappear with landscape screen */
-.menubtn{
-  display: none;
-}
-
-/* flex-direction */
 .column{
   flex-direction: column;
 }
 .row{
   flex-direction: row;
 }
-/* justify-content */
 .center{
   justify-content: center;
 }
@@ -65,8 +50,6 @@ nav{
 .flex_end{
   justify-content: flex-end;
 }
-
-/* home section - initial setup */
 .home{
   background-image: url(asset/Background.jpg);
   height: 100%;
@@ -84,18 +67,6 @@ nav{
   height: 100%;
   width: auto;
 }
-
-/* project section - initial setup */
-.rounded_box{
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  z-index:1;
-  display: none;
-  border-radius: 0px 0px 90px 90px;
-}
 .rounded_box3{
   height: 100%;
   width: 100%;
@@ -110,7 +81,6 @@ nav{
   display: none;
 }
 
-/* about section - initial setup */
 .rounded_box2{
   height: 100%;
   width: 100%;
@@ -119,11 +89,6 @@ nav{
   border-radius: 0px 0px 90px 90px;
   position: relative;
 }
-.laptop, .portrait, .landscape, .phone{
-  display: none;
-}
-
-/* contact section - initial setup */
 #contact{
   background-repeat: no-repeat;
   background-position: bottom;
@@ -156,28 +121,20 @@ nav{
     text-orientation: upright;
   }
   .logo{
-    height: 50%;
+    position: relative;
+    bottom: 35%;
+    left: -10%;
+    height: 30%;
     width: 50%;
   }
-  .text{
-    margin: 0 5%;
-    font-size: 18px;
-  }
-
-  /* project section */
   #project{
     background: #554F80;
   }
   .rounded_box3{
-    background-color: #27132C;
-    background-image: url(asset/project_laptop.png);
+    background-color: #ffb701;
+    background-image: url(asset/Background_Page1.png);
     flex-direction: row;
     display: flex;
-  }
-  .image{
-    background-color: #DDA8B2;
-    height: 20%;
-    border-radius: 60px;
   }
   .com_item2{
     background: #D3D3D3;
@@ -191,14 +148,19 @@ nav{
     align-self: center;
     box-shadow: -10px 10px 5px #3C3C3C;
   }
+  .com_item2 img{
+    border-radius: 50px 50px 5px 5px;
+  }
   .com_item2 h1{
+    text-align: left;
     font-size: 25px;
+    margin-left: 5%;
     padding: 1%;
   }
   .com_item2 p{
     font-size: 12px;
     text-align: left;
-    margin: 3% 8%;
+    margin: 2% 8%;
   }
   .com_item2 a{
     font-size: 20px;
