@@ -128,11 +128,10 @@ nav{
     width: 50%;
   }
   #project{
-    background: #554F80;
+    background: #ff8000;
   }
   .rounded_box3{
-    background-color: #ffb701;
-    background-image: url(asset/Background_Page1.png);
+    background-color: #ffb701;  
     flex-direction: row;
     display: flex;
   }
@@ -173,10 +172,10 @@ nav{
 
   /* about section */
   #about{
-    background: #D57E98;
+    background: #e30202;
   }
   .rounded_box2{
-    background: linear-gradient(180deg, #554F80 0%, #443058 100%);
+    background: linear-gradient(180deg, #ff8000 0%, #ff2a00 100%);
     flex-direction: row;
     display: flex;
   }
@@ -205,8 +204,8 @@ nav{
 
   /* contact section */
   #contact{
-    background-color: #D57E98;
-    background-image: url(asset/contact_laptop.png);
+    background-color: #e30202;
+    background-image: url(asset/about_landscape.png);
     background-size: 60%;
   }
   .box{
@@ -229,7 +228,7 @@ nav{
     margin: 10px 2px;
     border-radius: 50%;
     background: #27132C;
-    color: #D57E98;
+    color: #ff006a;
   }
   .fa:hover {
     opacity: 0.7;
