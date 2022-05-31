@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: #efefef;
+}
+.cover {
+    display: flex;
+    margin: 0% 15%;
+    margin-top: 3%;
+}
+.Description h1{
+    font-size: 65px;
+}
+.Description h2{
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.Description p {
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.Description {
+    margin-left: 2%;
+}
+.cover img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.Headings img{
+    padding: 5px 10px;
+    border-right: 2px solid rgb(22, 22, 22);
+    height: 50px;
+    width: 170px;
+}
+.Headings{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    display: block;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.navigation a:hover{
+    background-color: rgb(226, 225, 225);
+    border-radius: 5px;
+}
+.navigation ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container-slides {
+    margin-top: 75px;
+}
+.two img{
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+}
+.two p{
+    font-size: 14px;
+}
+.carousel-cell {
+    margin: 5px;
+}
+.cell2 {
+    margin: 0% 15%;
+}
+.one img{
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+}
+.one p{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.box{
+    margin-top: 1%;
+    padding-left: 3%;
+    margin-bottom: 1%;
+    display: flex;
+}
+.box h1{
+    font-size: 20px;
+    flex-grow: 1;
+}
+.social {
+    margin-left: 70%;
+}
+.social h1{
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+.fa{
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: #27132C;
+    text-size-adjust: 30px;
+    color: rgb(249, 123, 123);
+    text-decoration: none;
+}
+.fa-twitter{
+    color: rgb(97, 251, 251);
+}
+.fa-facebook{
+    background: #2144e3;
+    color: rgb(255, 255, 255);
+}
+.fa:hover{
+    opacity: 0.7;
+}
